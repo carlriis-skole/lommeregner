@@ -1,3 +1,6 @@
+# Regn ting
+# Lavet af Carl Riis
+
 import math
 from inspect import getfullargspec
 import os
