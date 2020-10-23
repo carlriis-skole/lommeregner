@@ -75,7 +75,7 @@ while True:
   print("\n" + name.strip(" ") + " = " + str(func(*args)).replace(".0", ""))
 
   # Spørg brugeren om personen vil fortsætte
-  user_input = input("\nVil du fortsætte? ")
+  user_input = input("\nVil du fortsætte? ").lower()
   if user_input == "nej":
     exit()
   elif user_input != "ja":
